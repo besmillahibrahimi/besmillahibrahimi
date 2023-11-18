@@ -1,0 +1,18 @@
+//robots.txt
+
+# Block all crawlers for /admin
+User-agent: *
+Disallow: /admin
+
+# Allow all crawlers
+User-agent: *
+Allow: /
+Allow: /index
+Allow: /articles
+Allow: /contact
+Allow: /education
+Allow: /experience
+Allow: /projects
+Allow: /skills
+
+Sitemap: https://ibrahimi.info/sitemap.xml
