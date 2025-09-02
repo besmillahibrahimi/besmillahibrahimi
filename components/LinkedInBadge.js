@@ -16,8 +16,8 @@ const LinkedInBadge = () => {
 
     return (
         <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="besmillahibrahimi" data-version="v1">
-            {/*<a className="badge-base__link LI-simple-link" href="https://ir.linkedin.com/in/besmillahibrahimi?trk=profile-badge">*/}
-            {/*</a>*/}
+            <a className="badge-base__link LI-simple-link" href="https://ir.linkedin.com/in/besmillahibrahimi?trk=profile-badge">
+            </a>
         </div>
     );
 };

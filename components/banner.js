@@ -57,7 +57,7 @@ class Banner extends React.Component {
                 <div className={`w-full flex flex-wrap justify-between`}>
                     <ExtraItem title={'5 +'} desc={'Years of experience'}/>
                     <ExtraItem title={'10 +'} desc={'Completed Projects'} />
-                    <ExtraItem title={'3  '} desc={'Spoken Languages'} />
+                    <ExtraItem title={'2  '} desc={'Spoken Languages'} />
                     <ExtraItem title={'10 +'} desc={'Languages & Frameworks'} />
                 </div>
             </section>

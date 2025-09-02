@@ -85,11 +85,7 @@ class Profile extends React.Component {
                             <p className={`text-white`}>Nationality</p>
                             <p className={`text-secondary-200 text-right`}>Afghanistan</p>
 
-                            <p className={`text-white`}>Residence</p>
-                            <p className={`text-secondary-200 text-right`}>Iran</p>
-
-                            <p className={`text-white`}>City</p>
-                            <p className={`text-secondary-200 text-right`}>Mashhad</p>
+                           
                         </div>
                         <Divider/>
                         {/*Languages*/}
@@ -98,7 +94,6 @@ class Profile extends React.Component {
                             <div className={`flex justify-center space-x-3`}>
                                 <CircularProgress value={'100'} label={"Dari"}/>
                                 <CircularProgress value={'80'} label={"English"}/>
-                                <CircularProgress value={'20'} label={"Germany"}/>
                             </div>
                         </div>
                         <Divider/>
@@ -108,10 +103,11 @@ class Profile extends React.Component {
                             <h6 className={`font-bold mb-5`}>Contacts</h6>
                             <div className={`flex flex-col`}>
                                 <Contact icon={faEnvelope} contact={<Link href={'mailto: besmillah@ibrahimi.info'}>besmillah@ibrahimi.info</Link>}/>
-                                <Contact icon={faPhone} contact={<Link href={'tel:+989355958780'}>+98 935 5958 780</Link>} />
-                                    <Contact icon={faWhatsapp} contact={<Link href={'tel:+98775515896'}>+98 77 5515 896</Link>}/>
-                                {/*<Contact icon={faEnvelope} contact={'besmellah.ibrahimi@gmail.com'}/>*/}
-                                <Contact icon={faHome} contact={<Link href={'geo:36.310699,59.599457'}>Mashhad, Iran</Link>}/>
+                                {/* <Contact icon={faPhone} contact={<Link href={'tel:+989355958780'}>+98 935 5958 780</Link>} /> */}
+                                    {/* <Contact icon={faWhatsapp} contact={<Link href={'tel:+98775515896'}>+98 77 5515 896</Link>}/> */}
+                                <Contact icon={faEnvelope} contact={<Link href={'mailto: besmellah.ibrahimi@gmail.com'}>besmellah.ibrahimi@gmail.com</Link>}/>
+                                
+                                
                             </div>
                         </div>
                         <div className={'mt-8 overflow-hidden w-[110%] -translate-x-1'}>
